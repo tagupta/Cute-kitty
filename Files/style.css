@@ -1,0 +1,339 @@
+#catBody{
+    margin-left: 50px;
+}
+#catEars{
+    position: relative;
+}
+.ear{
+    width: 100px;
+    height: 100px;
+    background-color: #EEFF41;
+    border-radius: 90% 0 90% 0;
+    position: absolute;
+}
+.leftEar{
+    transform: scale(1,-1);
+}
+.rightEar{
+    left: 100px;
+}
+.innerEar{
+    width: 54px;
+    background-color: white;
+    border-radius: 90% 0 90% 0;
+    position: absolute;
+    opacity: 0.5;
+}
+.innerLeftEar{
+    height: 98px;
+}
+.innerRightEar{
+    height: 103px;
+    left: 44px;
+    transform: rotate(185deg);
+}
+#catFace{
+    background-color: #EEFF41;
+    border-radius: 50%;
+    width: 200px;
+    height: 168px;
+}
+#catEyes{
+    width: inherit;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 40px;
+}
+.eyes{
+    width: 60px;
+    background-color: white;
+    height: inherit;
+    border-radius: 50%;
+    position: relative;
+}
+.pupils{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border: 3px solid blue;
+    border-radius: 50px;
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+.smallPupils{
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    float: right;
+}
+#catMouth{
+    display: flex;
+    justify-content: center;
+    
+}
+.mouth{
+    width: 25px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    background-color: #EEFF41;
+    box-shadow: 1px 5px 2px 0px black;
+}
+#tongue{    
+    height: 42px;
+    width: 30px;
+    background-color: #E91E63;
+    position: relative;
+    top: 43px;
+    left: 85px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+#nose{
+    width: 23px;
+    height: 12px;
+    background-color: black;
+    position: relative;
+    left: 89px;
+    bottom: 19px;
+    border-radius: 100px/50px;
+    box-shadow: -1px 3px 20px 9px red;
+}
+
+.whisker1{
+    width: 116px;
+    height: 38px;
+    border: solid 2px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 116%/90px 95px 0 0;
+    position: relative;
+    right: -2px;
+    bottom: 33px;
+}
+.whisker2{
+    width: 97px;
+    height: 38px;
+    border: solid 2px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 116%/90px 95px 0 0;
+    position: relative;
+    left: 20px;
+    bottom: 70px;
+}
+.whisker3{
+    width: 91px;
+    height: 38px;
+    border: solid 2px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 116%/90px 95px 0 0;
+    position: relative;
+    left: 34px;
+    bottom: 105px;
+}
+.whisker4{
+    width: 110px;
+    height: 38px;
+    border: solid 2px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 116%/90px 95px 0 0;
+    position: relative;
+    left: 77px;
+    bottom: 158px;
+}
+.whisker5{
+    width: 99px;
+    height: 38px;
+    border: solid 2px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 116%/90px 95px 0 0;
+    position: relative;
+    left: 77px;
+    bottom: 194px;
+}
+.whisker6{
+    width: 80px;
+    height: 38px;
+    border: solid 2px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 116%/90px 95px 0 0;
+    position: relative;
+    left: 77px;
+    bottom: 232px;
+}
+.catHair{
+    position: relative;
+}
+.hair{
+    width: 13px;
+    background-color: white;
+    position: absolute;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    transform: rotate(179deg);
+    opacity: 0.5;
+    box-shadow: 1px -8px 20px 9px gold;
+}
+.hair1{
+    height: 42px;
+    left: 95px;
+}
+.hair2{
+    height: 30px;
+    left: 80px;
+    top: 1px;
+    
+}
+.hair3{
+    height: 30px;
+    left: 110px;
+    top: 2px;
+    
+}
+#catLowerBody{
+    width: 179px;
+    height: 124px;
+    background-color: #EEFF41;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    position: relative;
+    bottom: 22px;
+    right: -4px;
+}
+#catLowerLowerBody{
+    width: 249px;
+    height: 119px;
+    background-color: #EEFF41;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    position: relative;
+    bottom: 93px;
+    right: 29px;
+}
+#bodyShadow{
+    width: 144px;
+    height: 108px;
+    background-color: white;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    position: relative;
+    bottom: 27px;
+    left: 50px;
+    opacity: 0.5;
+}
+.leg{
+    width: 70px;
+    height: 49px;
+    border: solid 42px #000;
+    border-color: #F4FF81 transparent transparent transparent;
+    border-radius: 116%/90px 95px 0 0;
+    position: relative;
+}
+.catLeftLeg{
+    right: 62px;
+    bottom: 198px;
+    transform: rotate(61deg);
+}
+.catRightLeg{
+    left: 96px;
+    bottom: 335px;
+    transform: rotate(297deg);
+}
+.foot{
+    background-color: #EEFF41;
+    position: relative;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+.foot1{
+    height: 64px;
+    width: 28px;
+    top: -392px;
+    left: 46px;
+    transform: rotate(-85deg);
+}
+.foot2{
+    height: 64px;
+    width: 28px;
+    top: -456px;
+    left: 106px;
+    transform: rotate(91deg);
+}
+.foot3{
+    height: 60px;
+    width: 25px;
+    top: -533px;
+    left: 18px;
+    transform: rotate(-85deg);
+}
+.foot4{
+    height: 64px;
+    width: 28px;
+    top: -590px;
+    left: 135px;
+    transform: rotate(91deg);
+}
+.nails{
+    width: 13px;
+    height: 8px;
+    border: solid 2px white;
+    border-color: transparent white transparent transparent;
+    position: relative;
+    transform: rotate(89deg);
+}
+.footNail1{
+    left: -4px;
+    bottom: -24px;
+}
+.footNail2{
+    left: -4px;
+    bottom: -24px;
+}
+.footNail3{
+    left: -4px;
+    bottom: 11px;
+}
+.footNail11{
+    left: 16px;
+    bottom: -24px;
+}
+.footNail22{
+    left: 15px;
+    bottom: -24px;
+}
+.footNail33{
+    left: 13px;
+    bottom: 10px;
+}
+.footNail111{
+    left: 10px;
+}
+.footNail222{
+    left: 13px;
+}
+.footNail333{
+    left: 22px;
+    top: 10px;
+}
+.aa{
+    left: -5px;
+}
+.bb{
+    left: -15px;
+    top: 8px;
+}
+#catTail{
+    width: 157px;
+    background-color: #EEFF41;
+    border-radius: 90% 0 90% 0;
+    position: absolute;
+    height: 82px;
+    top: 212px;
+    left: 231px;
+}
+#innerTail{
+    width: 122px;
+    background-color: #F4FF81;
+    border-radius: 90% 0 90% 0;
+    position: absolute;
+    height: 82px;
+    top: -2px;
+    left: 38px;
+}
